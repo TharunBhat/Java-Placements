@@ -1,0 +1,13 @@
+public class OnlyDigits {
+    public static void main(String[] args) {
+        String s = "123a5";
+        boolean isDigit = true;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) < '0' || s.charAt(i) > '9') {
+                isDigit = false;
+                break;
+            }
+        }
+        System.out.println(isDigit);
+    }
+}

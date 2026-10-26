@@ -1,0 +1,576 @@
+JAVA operators:
+
+perform the operation on operands
+
+types:
+additional
+assignment
+relational
+logical
+bitwise
+-----------------------------------------------------------------
+taking user input
+3 steps to create user input
+1. Importing the scanner.class
+2. Create object for scanner class
+3. Use scanner methods
+-----------------------------------------------------------------
+String methods:
+length();
+charAt(index)
+substring(start ,end)
+concat();
+toUppercase();
+toLowercase();
+trin();
+Replace();
+-----------------------------------------------------------------
+getters
+used to get the values
+
+setters
+used to set the values
+-----------------------------------------------------------------
+
+OOP'S CONCEPT
+1. class
+2. object
+3. inheritance
+4. polymorphism
+5. encapsulation
+6. abstraction
+-----------------------------------------------------------------
+Types of inheritance
+1. single level inheritance
+2. multiple level inheritance
+3. hierarchical inheritance
+-----------------------------------------------------------------
+multiple inheritance cannot be used in java
+
+ Q. how you will achieve multiple inheritance
+ans. using inheritance
+
+once we define inheritance we can use multiple class
+-----------------------------------------------------------------
+Abstraction
+
+It is the process of hiding unnecessary details and showing necessary information
+
+Advantages
+to protect the data from unauthorised persons (hackers)
+2. it improves the performance
+3. it reduces the readability
+-----------------------------------------------------------------
+Java provides two ways to achieve the abstraction
+1. abstract class
+	abstract is a key word used to create the abstract class
+	in abstract class, we cannot create object
+
+abstract methods:
+1. it is used to hide the unnecessary/internal data
+2. it does not contain implementation
+
+2. interface
+	it is key word used to create the interface class
+	it is used to achieve the abstraction
+-----------------------------------------------------------------
+PATTERN PRINTING
+
+it is process of printing data using symbols, characters into a design form
+
+why pattern printing
+it breakdown the complex shape into smaller or simple rows and column
+by using nested for loop we are going to write a pattern logic
+-----------------------------------------------------------------
+DSA
+It is used to access and modify data
+
+String :
+It is collection of characters.
+String is a datatype.
+String is a class.
+String is a predefined class.
+String class is located in java.lang package.
+String is immutable.
+
+Type of String creation :
+String s1="mister a"
+String s2="mister b"
+
+String Methods :
+s.length()
+s.chatAt()
+s.indexOf()
+s.isEmpty()
+s.isBlank()
+
+String changing Methods :
+s.toUpperCase()
+s.toLowercase()
+
+String check methods :
+s.equals()
+s.equalsIgnoreCase()
+s.startsWith()
+s.endsWith()
+s.contains()
+
+trim - removes unwanted space
+trim()
+trim().length()
+
+Types of string class : 3 Types 
+1. String class
+2. String buffer
+3. String builder
+String buffer and builder are both mutable.
+
+The difference between string builder and string buffer :
+- String buffer is a thread safable.
+- String builder is thread unsafable.
+
+ASCII VALUE :
+0 - 9   48 TO 57
+A - Z    65 TO 90
+a - Z   97 TO 122   
+SPACE 32
+
+Collection Framework :
+Collection - A set of data structures classes and interfaces located in particular package (util).
+Framework - A predefined tools and libraries.
+
+Collection :
+1. List
+    a. ArrayList
+    b. LinkedList
+2. Stack
+3. Queue
+    a. Array Dequeue
+    b. LinkedList
+    c. Priority Queue
+4. Set
+    a. Hash Set
+    b. Linked HashSet
+    c. Tree Set
+5. Map
+    a. Hash Map
+    b. Linked Hash Map
+    c. Tree Map
+
+All the data structures classes and interfaces which is located in util package.
+Collection Framework it only accept wrapper class not a primitive data Type.
+
+Autoboxing and Autounboxing :
+Autoboxing is a process of convert the primitive data type to corresponding wrapper class.
+Autounboxing is the process of reverse the process of Autoboxing.
+
+int -> Integer
+float -> Float
+char -> Characters
+boolean -> Boolean
+String -> String
+
+Array List :
+size
+set
+add
+isEmpty
+direct print
+
+Stack :
+
+Priority Queue :
+Priority Queue follows the min heap concept (minimum element is parent).
+ 
+Set :
+It is a interface.
+Hash Set is a unorder.
+Linked Set is same order.
+
+Map :
+
+
+Recursion :
+Recursion in java a process of method call itself.
+
+method :
+public - protected, private, default
+static
+void - with or without return
+() - refer bottom
+
+1. without return type with argument
+2. without return type without argument
+3. with return type with argument
+4. with return type without argument
+
+Key concept of recursion :
+1. Base case - we have to write the condition
+2. Recursive case - we have to call the method
+
+Print from 1 to 10 numbers
+Print from 10 to 1 numbers
+Print from 1 to 10 even numbers
+Print from 10 to 1 odd numbers
+Print sum of first 10 natural numbers
+Print the fibonacci series
+Check the number is palindrome or not
+Check the string is palindrome or not
+Find the sum of the digit
+Count the digit
+
+how it's working recursion
+Factorial  
+
+Looping statement and recursion are doing the same work but compare to looping statement and recursion, looping statement is best for memory management.
+Recursive is best for complex problem.
+
+Data Structure :
+It is a method of organizing the large number of data more efficiently.
+
+Data Structure
+1.primitive (predefined)
+    Integer
+    Float
+    Characters
+    Boolean
+2.Non primitive (user defined)
+    (a)Linear
+        Array
+        Linked List
+        Stack (LIFO)
+        Queue (FIFO)
+    (b)Non Linear
+        Tree
+        Graph
+
+Asymptotic Notation :
+It is used to calculate the mathematical representation of the program.
+
+1. Big O() notation :
+It is formal way to express the upper bound of the algorithm.
+It follows the worst case complexity.
+
+2. omega Ω() notation :
+It is formal way to express the lower bound of the algorithm.
+It follows the best case complexity.
+
+3. theta Θ() notation :
+It is formal way to express the average bound of the algorithm.
+It follows the average case complexity.
+
+Big O() notation :
+O(1) - Constant complexity -> 0th index, direct
+O(n) - Linear Complexity -> Last index, access all element
+O(n^2) - Quadratic -> Nested for loop
+O(n^3) - Cubic -> nested for loop, have one sub loop
+O(n!) - factorial depends on input
+
+Important cases :
+O(log n) - logarithmic, Binary search and binary search tree
+O(n log n) - merge sort and quick sort
+
+With the help of notation we can calculate the program performance.
+The performance is based on time and space.
+
+Time Complexity :
+Time taken for a execution of a program.
+
+space complexity :
+space taken for a execution of a program.
+
+Array :
+It is a container which is used to store data.
+
+Disadvantage :
+1. Array is a fixed size.
+2. It only accept similar data type.
+
+Types of array :
+1. One dimensional array
+2. Two dimensional array
+3. Multi dimensional array
+
+1. One dimensional array :
+It means row or column.
+
+2. Two dimensional array :
+It means rows and columns.
+It is a stack of one dimensional array.
+
+3. Multi dimensional array :
+It is a stack of two dimensional array.
+
+TASK :
+1. Print the all names from the given array
+2. Print the all names in the given array in reverse order
+3. Convert the array to ArrayList
+4. Print the all even number in array
+5. Print the all odd number in array
+6. Count the how many odd and how many even
+7. Find the sum of the array
+8. Find the sum of the even and sum of the odd
+9. Skip the particular element in the array
+10. Search the particular element in the array
+11. Print the odd prime numbers in the Array
+12. Print the array size without length size
+
+Searching techniques :
+Searching is the process of finding the specific element from the collection of element
+
+Types of searching :
+1. Linear Search
+    average case is linear case
+    complexity is n
+2. Binary Search
+    In binary search tree if your target element is equal to mid element then return the index value
+    If your target element is greater then mid element then move to the right side and starting value will change(s=mid+1;) 
+    If your target element is lesser then mid element then move to the left side and ending value will change(s=mid-1)
+    complexity is log n
+
+Sorting techniques :
+Sorting is the process of arranging all the elements in ordered manner
+
+Types of Sorting techniques :
+1. Selection sort
+2. Insertion sort
+3. Bubble sort
+4. Merge sort
+5. Quick sort
+6. Radics sort
+7. Heap sort
+
+1. Selection sort :
+It is a process of select the each and every element from the unsorted array, compare and swap repeatedly to make it sorted array
+
+40 30 10 20
+
+step 1:
+i=0
+j=1
+40>30
+30 40 10 20
+
+i=0
+j=2
+30>10
+10 40 30 20
+
+i=0 j=3
+10>20
+10 40 30 20
+
+step 2
+i=1
+j=2
+40>30
+10 30 40 20
+
+i=1
+j=3
+30>20
+10 20 40 30
+
+step 3
+i=2
+j=3
+10 20 30 40
+
+2. Insertion sort :
+It is a process of inserting the each and every element from unsorted sub array to sorted sub array
+
+Step 1: Assume 0th index is a sorted sub array rest of all unsorted sub array
+Step 2: Assume 1st index is a temp 
+Step 3: If your temp value less than previous value, swap the value else temp=temp.next
+Step 4: Repeat the step 3 until found the sorted array
+
+3. Bubble sort :
+It only compares adjacent elements 
+
+Rule of Bubble sort :
+Placing largest number at the correct 
+
+Linked List:
+Collection of nodes connected together through link.
+
+Basic terminology of LinkedList:
+1st node called as head,last node called as tail.
+
+Types of linked List:
+1.Singly linked List
+2.Doubly linked List
+3.Circular linked List : SinglyCircular, DoublyCircular
+
+1.Singly linked List : It is a type of linked list that is unidirectional.
+[10|200]-->[20|300]-->[30|NULL]
+Head           Sec         tail
+
+step1:
+Basic Structure of SinglyLS:
+Class Node
+{
+       int data;
+       Node next;
+}
+
+step2:
+How to create a node:
+Node nodename = new Node();
+
+step3:
+How to assign a value:
+Nodename.data=value();
+
+step4:
+How to link the node:
+currentnodename.next=nextnodename;
+
+Doubly Linked List :
+Step 1: Basic structure of DLL
+Step 2: Object creation
+Step 3: Assign values
+Step 4: Current node name . prev=previous node name
+
+Implementation of SLL :
+insert()
+public void insert(int data){
+        Node hello=new Node(data);
+        if(head==null){
+            head=hello;
+            tail=hello;
+        } else {
+            tail.next=hello;
+            tail=hello;
+        }
+    }
+
+search()
+public void search(int val){
+        int p=0;
+        Node n=head;
+        while(n!=null){
+            if(n.data==val){
+                p=1;break;
+            }
+            n=n.next;
+        }
+        if(p==1)
+            System.out.println("Yes");
+        else 
+            System.out.println("No");
+    }
+
+delete()
+public void del(int tar){
+        if(head.data==tar){
+            head=head.next;
+        }
+        else{
+            Node n=head;
+            while(n.next.data!=tar){
+                n=n.next;
+            }
+            n.next=n.next.next;
+        }
+    }
+
+Stack and Queue Implementation using Linked List
+
+inorder - m x a y + n - b %
+
+
+CORE Java
+1. Basics
+2. OOPS
+3. Exception Handling
+4. Multi-threading
+5. Collection Framework
+
+Advanced Java
+1. JDBC
+2. Servlet
+3. JSP
+
+SPRING
+1. spring core
+2. spring MVC
+3. spring AOP
+4. spring JDBC
+5. springBoot 
+6. spring Boot Security
+7. Hibernate
+8. Microservices  
+
+4 pillars of OOPS
+1. Abstraction
+2. Encapsulation
+3. Polymorphism
+4. Inheritence
+
+Time Complexity
+Best Case -> Big omega
+Average Case -> Big theta
+Worst Case -> Big oh
+
+Expression
+5 + 0.001n^3 + 0.025n        -> O(n^3)
+500n + 100n^1.5 + 50nlog10n  -> n^1.5
+0.3n + 5n^1.5 + 2.5  n^1.75   -> O(n^1.75)
+n^2 log2 n + n(log2n)^2       -> O(n^2 logn)
+nlog3n + n(logn)^2           -> O(nlogn)
+3log8n + log2 log2 log2 n    -> O(logn)
+
+Question:
+a=5
+b=a++
+c=++b
+d=++a + --c
+a=? b=? c=? d=?
+Answer: 
+a=7
+b=6
+c=5
+d=12
+
+++a             a++
+1. a=1+a        1. assign
+2. assign       2. a=1+a 
+
+1. Core Java/Java SE 
+    * Core Components and IDE's
+    * Introduction to Java/Basics
+    * Array
+    * Strings
+    * Object Oriented Programming
+    * Collections
+    * Exception Handling
+    * Multithreading
+    * lang & io packages
+    * lambda expressions
+
+2. Advanced Java/Java EE/Java 2EE
+    * JSP (Java servelet pages)
+
+3. Data bases
+    * SQL -> MySQL,Oracle,PostGre SQL
+
+4. Web Technologies
+    * HTML,CSS,Javascript,Bootstrap
+
+5. Backend Technologies 
+    * Spring framework,Hibernate framework
+
+6. Popular tools
+    * Mason, GitHub, Postman execution
+
+7. Projects
+
+Spring Controller (IOC)
+1. Manage Bean Objects
+    (1) create a PoJo class
+    (2) Provide the configurations
+    (3) Activate spring Controller      
+        * Bean Factory(old)
+        * Application Context(new)
+2. Manage Bean life cycle
+3. Dependency Injection
