@@ -1,0 +1,86 @@
+JAVA operators:
+
+perform the operation on operands
+
+types:
+additional
+assignment
+relational
+logical
+bitwise
+-----------------------------------------------------------------
+taking user input
+3 steps to create user input
+1. Importing the scanner.class
+2. Create object for scanner class
+3. Use scanner methods
+-----------------------------------------------------------------
+String methods:
+length();
+charAt(index)
+substring(start ,end)
+concat();
+toUppercase();
+toLowercase();
+trin();
+Replace();
+-----------------------------------------------------------------
+getters
+used to get the values
+
+setters
+used to set the values
+-----------------------------------------------------------------
+
+OOP'S CONCEPT
+1. class
+2. object
+3. inheritance
+4. polymorphism
+5. encapsulation
+6. abstraction
+-----------------------------------------------------------------
+Types of inheritance
+1. single level inheritance
+2. multiple level inheritance
+3. hierarchical inheritance
+-----------------------------------------------------------------
+multiple inheritance cannot be used in java
+
+ Q. how you will achieve multiple inheritance
+ans. using inheritance
+
+once we define inheritance we can use multiple class
+-----------------------------------------------------------------
+Abstraction
+
+It is the process of hiding unnecessary details and showing necessary information
+
+Advantages
+to protect the data from unauthorised persons (hackers)
+2. it improves the performance
+3. it reduces the readability
+-----------------------------------------------------------------
+Java provides two ways to achieve the abstraction
+1. abstract class
+	abstract is a key word used to create the abstract class
+	in abstract class, we cannot create object
+
+abstract methods:
+1. it is used to hide the unnecessary/internal data
+2. it does not contain implementation
+
+2. interface
+	it is key word used to create the interface class
+	it is used to achieve the abstraction
+-----------------------------------------------------------------
+PATTERN PRINTING
+
+it is process of printing data using symbols, characters into a design form
+
+why pattern printing
+it breakdown the complex shape into smaller or simple rows and column
+by using nested for loop we are going to write a pattern logic
+-----------------------------------------------------------------
+
+
